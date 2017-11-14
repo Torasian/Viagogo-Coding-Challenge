@@ -1,3 +1,4 @@
+
 # Viagogo Coding Challenge
 
 ## Starting the program
@@ -12,6 +13,10 @@
 1. There is a maximum of 400 events in the world space.
 2. There is a minimum of 5 events in the world space (so that we are able to show the 5 nearest events).
 3. The first 5 events must have a ticket associated to it (so that we ensure that we have enough events to display).
-4. Each event has a maximum of 5 tickets associated to it.
-5. The ticket costs between $1 and $150.
+4. Each event has a maximum of 5 tickets associated to it.h
 6. The user is within the world space.
+
+## Additional questions
+### How might you change your program if you needed to support multiple events at the same location?
+
+### How would you change your program if you were workign with a much larger world size?
