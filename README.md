@@ -19,4 +19,12 @@
 ## Additional questions
 ### How might you change your program if you needed to support multiple events at the same location?
 
-### How would you change your program if you were workign with a much larger world size?
+In our World class, we assign location to each event, however, we remove this location so that no more than on evetn can have the same location. However, if we remove this retriction, multiple events will be able to be allocated to a location. 
+
+It may also be useful to have a location ID to make it easier to identify which events share the same location.
+
+### How would you change your program if you were working with a much larger world size?
+
+So far we have only considered integer cooridnates. However, for a larger world size it may be beter to consider longditude and latitude instead as a more accurate representation of the world space.
+
+It may also be useful to consider a different data structure to store the event data. If we wanted to focus on search speed, we may consider using a hash table. To find minimum and maximum values, using a sorted linked list or sorted array would reduce time in finding the nearest events. 
