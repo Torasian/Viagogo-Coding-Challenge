@@ -2,6 +2,7 @@ import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.regex.*;
 
 public class Main {
 	
@@ -10,6 +11,12 @@ public class Main {
 	private static void userInput() {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter your x coordinate (between -10 and 10)");
+		
+//		String pattern = "\\>\\s?(\\d{1,2})\\,\\s?(\\d{1,2})";
+//		String input = scan.next(pattern);
+//		
+//		System.out.println(input);
+		
 		int x = scan.nextInt();
 		while(true) {
 			try {
